@@ -4,6 +4,7 @@ import NeutralColors from "../components/NeutralColors";
 import OtherColors from "../components/OtherColors";
 import PrimaryColors from "../components/PrimaryColors";
 import Seperator from "../components/Seperator";
+import { heroData } from "../utils/data";
 
 
 const ColorPage = () => {
@@ -11,7 +12,7 @@ const ColorPage = () => {
         <>
         
 
-        <Herosection />
+        <Herosection  {...heroData.color} />
 
         <Seperator>
         <div className="flex justify-start gap-[8px]">

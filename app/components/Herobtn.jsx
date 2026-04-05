@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Herobtn = () => {
+const Herobtn = ({text}) => {
     return (
         <button className="
         flex items-center justify-center
@@ -15,7 +15,7 @@ const Herobtn = () => {
         rotate-0
         bg-[#2466F2]
     ">
-        <span className='text-[#FFF]'> Core element</span>
+        <span className='text-[#FFF]'> {text}</span>
     </button>
     );
 };
