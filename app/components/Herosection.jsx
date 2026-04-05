@@ -8,7 +8,7 @@ const Herosection = ({ title, description, buttonText }) => {
         <Herobtn text={buttonText} />
   
         <div className="flex justify-center items-center w-full">
-          <p className="text-[120px] font-extrabold uppercase text-center">
+          <p className="text-[85px] font-bold uppercase text-center">
             {title}
           </p>
         </div>
