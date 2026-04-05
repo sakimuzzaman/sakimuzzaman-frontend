@@ -1,9 +1,8 @@
 import ColorBox from "./ColorBox";
 
-
 const AlphaColors = () => {
-    return (
-        <section
+  return (
+    <section
       className="
             mx-auto
             bg-[#FFFFFF]
@@ -18,7 +17,8 @@ const AlphaColors = () => {
     >
       <h3 className="font-semibold text-2xl">Alpha Colors</h3>
       <p className="text-sm">
-         Used to indicate errors or critical actions, these colors are essential for alerting users and drawing attention to important warnings.
+        Used to indicate errors or critical actions, these colors are essential
+        for alerting users and drawing attention to important warnings.
       </p>
 
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 sm:gap-5 lg:gap-[22px]">
@@ -40,7 +40,7 @@ const AlphaColors = () => {
           hsb="0 0 100 30"
           darkText={true}
         />
-        
+
         <ColorBox
           bgValue="hsla(221, 85%, 90%, 1.25)"
           title="Blue [15%]"
@@ -53,12 +53,9 @@ const AlphaColors = () => {
           hsb="0 0 100 20%"
           darkText={false}
         />
-
-        
-
       </div>
     </section>
-    );
+  );
 };
 
 export default AlphaColors;

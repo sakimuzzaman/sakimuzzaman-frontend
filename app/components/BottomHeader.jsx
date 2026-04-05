@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const Header = () => {
+const BottomHeader = () => {
   return (
-    <nav className="flex justify-between bg-[#FFFFFF] rounded-t-[25px] px-[60px] py-[24px] border-b border-gray-300">
+    <nav className="flex justify-between bg-[#FFFFFF] rounded-b-[25px] px-[60px] py-[24px] border-t border-gray-300">
       <div
         className="
             w-[31px] 
@@ -46,12 +46,9 @@ const Header = () => {
         >
           Style Guide
         </Link>
-      
       </span>
-      
     </nav>
-    
   );
 };
 
-export default Header;
+export default BottomHeader;
