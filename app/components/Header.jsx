@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <nav className="flex justify-between bg-[#FFFFFF] rounded-t-[15px] px-[60px] py-[24px]">
+    <nav className="flex justify-between bg-[#FFFFFF] rounded-t-[25px] px-[60px] py-[24px]">
       <div
         className="
             w-[31px] 
