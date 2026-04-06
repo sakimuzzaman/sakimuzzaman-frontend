@@ -2,6 +2,7 @@ import React from 'react';
 import Herosection from '../components/Herosection';
 import { heroData } from '../utils/data';
 import Seperator from '../components/Seperator';
+import BaseComponents from '../components/BaseComponent';
 
 const ComponentPage = () => {
     return (
@@ -21,6 +22,8 @@ const ComponentPage = () => {
                Base Components
          </span>
             </Seperator>
+
+            <BaseComponents />
 
         </div>
     );

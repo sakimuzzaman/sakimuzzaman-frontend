@@ -1,4 +1,5 @@
 import Herosection from "../components/Herosection";
+import IconsSection from "../components/IconsSection";
 import Seperator from "../components/Seperator";
 import { heroData } from "../utils/data";
 
@@ -21,6 +22,8 @@ const IconPage = () => {
                Icons
          </span>
             </Seperator>
+
+            <IconsSection />
 
         </>
     );
