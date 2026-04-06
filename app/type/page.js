@@ -1,8 +1,9 @@
 
+import BodySection from "../components/BodySection";
 import Herosection from "../components/Herosection";
 import Seperator from "../components/Seperator";
 import TypographySection from "../components/TypographySection";
-import { heroData, typographyData } from "../utils/data";
+import { bodyTypographyData, heroData, typographyData } from "../utils/data";
 
 
 const TypePage = () => {
@@ -31,6 +32,10 @@ const TypePage = () => {
         <TypographySection key={item.level} item={item} />
       ))}
 
+              
+{bodyTypographyData.map((item, index) => (
+        <BodySection key={index} item={item} />
+      ))}
           </div>
 
         </>

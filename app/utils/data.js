@@ -65,3 +65,28 @@
       lineHeight: "135%",
     },
   ];
+
+
+  export const bodyTypographyData = [
+    {
+      title: "Body Normal",
+      fontFamily: "SF Pro Display",
+      weight: "Regular, Medium",
+      size: 17,
+      lineHeight: "135%",
+    },
+    {
+      title: "Body SM",
+      fontFamily: "SF Pro Display",
+      weight: "Regular, Medium",
+      size: 15,
+      lineHeight: "135%",
+    },
+    {
+      title: "Body XS",
+      fontFamily: "SF Pro Display",
+      weight: "Regular",
+      size: 13,
+      lineHeight: "140%",
+    },
+  ];

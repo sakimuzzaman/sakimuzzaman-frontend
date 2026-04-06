@@ -8,7 +8,7 @@ const TypographySection = ({ item }) => {
     return (
         <>
         <div 
-      className="grid grid-cols-[1.5fr_1fr_1fr_1fr] items-center px-14 py-8 border-b border-gray-200 gap-x-12"
+      className="grid grid-cols-4 items-center px-14 py-8 border-b border-gray-200 gap-x-32"
     >
       {/* Column 1: Title and Font Info (Left Aligned) */}
       <div className="text-left">
@@ -23,19 +23,19 @@ const TypographySection = ({ item }) => {
       </div>
 
       {/* Column 2: Weight (Right Aligned) */}
-      <div className="text-right">
+      <div className="">
         <p className="text-[12px] text-gray-400">Weight</p>
         <p className="text-[13px] text-gray-800 mt-2">{item.weight}</p>
       </div>
 
       {/* Column 3: Size (Right Aligned) */}
-      <div className="text-right">
+      <div className="">
         <p className="text-[12px] text-gray-400">Size</p>
         <p className="text-[13px] text-gray-800 mt-2">{item.size}</p>
       </div>
 
       {/* Column 4: Line Height (Right Aligned) */}
-      <div className="text-right">
+      <div className="">
         <p className="text-[12px] text-gray-400">Line Height</p>
         <p className="text-[13px] text-gray-800 mt-2">{item.lineHeight}</p>
       </div>
