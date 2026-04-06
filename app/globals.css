@@ -8,4 +8,19 @@
     }
   }
 
+  @keyframes pulse-glow {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+  }
   
+  .animate-pulse-slow {
+    animation: pulse-glow 2s ease-in-out infinite;
+  }
+  
+  .border-dashed {
+    border-style: dashed;
+  }

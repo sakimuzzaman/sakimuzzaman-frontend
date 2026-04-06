@@ -3,6 +3,7 @@ import Herosection from '../components/Herosection';
 import { heroData } from '../utils/data';
 import Seperator from '../components/Seperator';
 import BaseComponents from '../components/BaseComponent';
+import BasicTemplates from '../components/BasicTemplates/BasicTemplates';
 
 const ComponentPage = () => {
     return (
@@ -24,6 +25,22 @@ const ComponentPage = () => {
             </Seperator>
 
             <BaseComponents />
+
+            <Seperator>
+            <span className="
+                    jusyify-start
+                    opacity-100 
+                    rotate-0
+                    font-normal 
+                    text-[17px] 
+                    leading-[100%] 
+                    tracking-[0%]
+                 ">
+               Basic Templates
+         </span>
+            </Seperator>
+
+            <BasicTemplates />
 
         </div>
     );

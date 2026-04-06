@@ -26,16 +26,37 @@ const TypePage = () => {
             </Seperator>
 
 
-            <div className="bg-white shadow-sm">
+            <div className="bg-[#FFFFFF] shadow-sm">
 
             {typographyData.map((item) => (
-        <TypographySection key={item.level} item={item} />
-      ))}
+              <TypographySection
+                  key={item.level} item={item} />
+            ))}
 
+              </div>
+
+            <Seperator>
+               <span className="
+                    jusyify-start
+                    opacity-100
+                    rotate-0
+                    font-normal 
+                    text-[17px] 
+                    leading-[100%] 
+                    tracking-[0%]
+                 ">
+                 Body
+              </span>
+            </Seperator>
               
-{bodyTypographyData.map((item, index) => (
-        <BodySection key={index} item={item} />
-      ))}
+              
+            <div className="bg-[#FFFFFF] shadow-sm">
+
+            {bodyTypographyData.map((item, index) => (
+              <BodySection key={index} item={item} />
+            ))}
+
+
           </div>
 
         </>

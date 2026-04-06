@@ -90,3 +90,16 @@
       lineHeight: "140%",
     },
   ];
+
+
+ export const lessonsData = [
+    { title: "The Science Behind Deep Work", duration: "22:51", isActive: false },
+    { title: "The Science Behind Deep Work", duration: "22:51", isActive: true, hasPreview: true },
+  ];
+  
+export  const moduleLessonsData = [
+    { title: "Understanding Focus & Distraction", duration: "14:23", hasPreview: true },
+    { title: "The Science Behind Deep Work", duration: "22:51" },
+    { title: "Identifying Your Productivity Killers", duration: "34:42" },
+    { title: "How to Strengthen Your Attention Span", duration: "27:08" },
+  ];
