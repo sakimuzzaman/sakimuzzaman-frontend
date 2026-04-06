@@ -21,3 +21,47 @@
       buttonText: "Core elements",
     },
   };
+
+
+  export const typographyData = [
+    {
+      level: 1,
+      title: "Heading 1",
+      fontFamily: "SF Pro Display",
+      weight: "Regular, Medium",
+      size: 52,
+      lineHeight: "115%",
+    },
+    {
+      level: 2,
+      title: "Heading 2",
+      fontFamily: "SF Pro Display",
+      weight: "Medium",
+      size: 40,
+      lineHeight: "115%",
+    },
+    {
+      level: 3,
+      title: "Heading 3",
+      fontFamily: "SF Pro Display",
+      weight: "Medium",
+      size: 28,
+      lineHeight: "115%",
+    },
+    {
+      level: 4,
+      title: "Heading 4",
+      fontFamily: "SF Pro Display",
+      weight: "Regular",
+      size: 24,
+      lineHeight: "135%",
+    },
+    {
+      level: 5,
+      title: "Heading 5",
+      fontFamily: "SF Pro Display",
+      weight: "Regular",
+      size: 20,
+      lineHeight: "135%",
+    },
+  ];
