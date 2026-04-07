@@ -1,33 +1,3 @@
-// import { ArrowRight } from "lucide-react";
-
-// const BlueCTACard = () => {
-//     return (
-//       <div className="w-[360px] h-[190px] bg-blue-600 rounded-2xl p-6 flex flex-col justify-between shadow-lg">
-//         <div className="flex justify-between items-start">
-//           {/* Overlapping Profile Avatars */}
-//           <div className="flex items-center -space-x-2">
-//             <img className="w-8 h-8 rounded-full border-2 border-blue-600 object-cover" src="https://i.pravatar.cc/150?img=11" alt="student" />
-//             <img className="w-8 h-8 rounded-full border-2 border-blue-600 object-cover" src="https://i.pravatar.cc/150?img=11" alt="student" />
-//             <img className="w-8 h-8 rounded-full border-2 border-blue-600 object-cover" src="https://i.pravatar.cc/150?img=11" alt="student" />
-//           </div>
-          
-//           {/* Clickable Action Circular Button */}
-//           <button className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-blue-600 shadow-sm cursor-pointer">
-//             <ArrowRight size={18} />
-//           </button>
-//         </div>
-  
-//         <div>
-//           <span className="text-[14px] font-medium text-white">Join with 5K other students</span>
-//         </div>
-//       </div>
-//     );
-//   };
-  
-
-//   export default BlueCTACard;
-
-
 import { ArrowRight } from "lucide-react";
 
 const BlueCTACard = () => {
