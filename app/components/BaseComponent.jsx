@@ -1,4 +1,5 @@
 import { Play, ChevronLeft, Moon, Sun, Lightbulb } from 'lucide-react';
+import Link from 'next/link';
 
 export default function BaseComponents() {
   return (
@@ -22,43 +23,77 @@ export default function BaseComponents() {
           <div className="bg-[#F2F2F7] rounded-3xl p-5">
             <div className="grid grid-cols-3 gap-3">
               {/* Row 1 */}
-              <button className="h-10 px-5 bg-[#007AFF] hover:bg-[#0051D5] text-white text-sm font-medium rounded-xl transition-colors">
-                Button
-              </button>
-              <button className="h-10 px-5 bg-[#1C1C1E] hover:bg-[#000000] text-white text-sm font-medium rounded-xl transition-colors">
-                Button
-              </button>
-              <button className="h-8 px-3 bg-[#1C1C1E] hover:bg-[#000000] text-white text-xs font-medium rounded-lg transition-colors self-center">
-                Button
-              </button>
+
+              <Link href="icons#icons-section">
+                <button className="h-10 px-5 bg-[#007AFF] hover:bg-[#0051D5] text-white text-sm font-medium rounded-xl transition-colors">
+                  Button
+                </button>
+              </Link>
+              
+
+              <Link href="icons#icons-section">
+                <button className="h-10 px-5 bg-[#1C1C1E] hover:bg-[#000000] text-white text-sm font-medium rounded-xl transition-colors">
+                  Button
+                </button>
+              </Link>
+              
+
+              <Link href="icons#icons-section">
+                <button className="h-8 px-3 bg-[#1C1C1E] hover:bg-[#000000] text-white text-xs font-medium rounded-lg transition-colors self-center">
+                  Button
+                </button>
+              </Link>
+              
 
               {/* Row 2 - Slightly lighter/different state */}
-              <button className="h-10 px-5 bg-[#5AC8FA] hover:bg-[#007AFF] text-white text-sm font-medium rounded-xl transition-colors">
-                Button
-              </button>
-              <button className="h-10 px-5 bg-[#2C2C2E] hover:bg-[#1C1C1E] text-white text-sm font-medium rounded-xl transition-colors">
-                Button
-              </button>
-              <button className="h-8 px-3 bg-[#2C2C2E] hover:bg-[#1C1C1E] text-white text-xs font-medium rounded-lg transition-colors self-center">
-                Button
-              </button>
+              <Link href="icons#icons-section">
+                <button className="h-10 px-5 bg-[#5AC8FA] hover:bg-[#007AFF] text-white text-sm font-medium rounded-xl transition-colors">
+                  Button
+                </button>
+              </Link>
+              
+              
+              <Link href="icons#icons-section">
+                <button className="h-10 px-5 bg-[#2C2C2E] hover:bg-[#1C1C1E] text-white text-sm font-medium rounded-xl transition-colors">
+                  Button
+                </button>
+              </Link>
+              
+
+              <Link href="icons#icons-section">
+                <button className="h-8 px-3 bg-[#2C2C2E] hover:bg-[#1C1C1E] text-white text-xs font-medium rounded-lg transition-colors self-center">
+                  Button
+                </button>
+              </Link>
+              
 
               {/* Row 3 */}
-              <button className="h-10 px-5 bg-[#007AFF] hover:bg-[#0051D5] text-white text-sm font-medium rounded-xl transition-colors">
-                Button
-              </button>
-              <button className="h-10 px-5 bg-[#1C1C1E] hover:bg-[#000000] text-white text-sm font-medium rounded-xl transition-colors">
-                Button
-              </button>
-              <button className="h-8 px-3 bg-[#1C1C1E] hover:bg-[#000000] text-white text-xs font-medium rounded-lg transition-colors self-center">
-                Button
-              </button>
+              <Link href="icons#icons-section">
+                <button className="h-10 px-5 bg-[#007AFF] hover:bg-[#0051D5] text-white text-sm font-medium rounded-xl transition-colors">
+                  Button
+                </button>
+              </Link>
+              
+              <Link href="icons#icons-section">
+                <button className="h-10 px-5 bg-[#1C1C1E] hover:bg-[#000000] text-white text-sm font-medium rounded-xl transition-colors">
+                  Button
+                </button>
+              </Link>
+              
+
+              <Link href="icons#icons-section">
+                <button className="h-8 px-3 bg-[#1C1C1E] hover:bg-[#000000] text-white text-xs font-medium rounded-lg transition-colors self-center">
+                  Button
+                </button>
+              </Link>
+              
             </div>
           </div>
 
           {/* Play Buttons Stack */}
           <div className="bg-[#F2F2F7] rounded-3xl p-6 flex flex-col gap-6">
             {/* Row 1: White circular */}
+            <Link href="icons#icons-section">
             <div className="flex items-center gap-4">
               <button className="w-14 h-14 bg-white rounded-full flex items-center justify-center shadow-[0_2px_8px_rgba(0,0,0,0.08)] hover:shadow-[0_4px_12px_rgba(0,0,0,0.12)] transition-shadow">
                 <Play className="w-6 h-6 text-[#007AFF] fill-[#007AFF] ml-1" />
@@ -70,15 +105,21 @@ export default function BaseComponents() {
                 <Play className="w-3.5 h-3.5 text-[#007AFF] fill-[#007AFF] ml-0.5" />
               </button>
             </div>
+            </Link>
+            
 
             {/* Row 2: Blue icons only */}
+            <Link href="icons#icons-section">
             <div className="flex items-center gap-6 px-2">
               <Play className="w-7 h-7 text-[#007AFF] fill-[#007AFF]" />
               <Play className="w-5 h-5 text-[#007AFF] fill-[#007AFF]" />
               <Play className="w-4 h-4 text-[#007AFF] fill-[#007AFF]" />
             </div>
+            </Link>
+            
 
             {/* Row 3: Gray circular */}
+            <Link href="icons#icons-section">
             <div className="flex items-center gap-4">
               <button className="w-16 h-16 bg-[#D1D1D6] rounded-full flex items-center justify-center hover:bg-[#C7C7CC] transition-colors">
                 <Play className="w-7 h-7 text-[#007AFF] fill-[#007AFF] ml-1" />
@@ -90,18 +131,24 @@ export default function BaseComponents() {
                 <Play className="w-3.5 h-3.5 text-[#007AFF] fill-[#007AFF] ml-0.5" />
               </button>
             </div>
+            </Link>
+            
 
             {/* Row 4: Gray icons */}
-            <div className="flex items-center gap-6 px-3">
-              <Play className="w-6 h-6 text-[#C7C7CC] fill-[#C7C7CC]" />
-              <Play className="w-5 h-5 text-[#C7C7CC] fill-[#C7C7CC]" />
-              <Play className="w-4 h-4 text-[#C7C7CC] fill-[#C7C7CC]" />
-            </div>
+            <Link href="icons#icons-section">
+              <div className="flex items-center gap-6 px-3">
+                <Play className="w-6 h-6 text-[#C7C7CC] fill-[#C7C7CC]" />
+                <Play className="w-5 h-5 text-[#C7C7CC] fill-[#C7C7CC]" />
+                <Play className="w-4 h-4 text-[#C7C7CC] fill-[#C7C7CC]" />
+              </div>
+            </Link>
+            
           </div>
 
           {/* Arrow Buttons */}
           <div className="bg-[#F2F2F7] rounded-3xl p-5">
-            <div className="grid grid-cols-2 gap-3">
+          <Link href="icons#icons-section">
+          <div className="grid grid-cols-2 gap-3">
               {/* Large dark */}
               <button className="w-12 h-12 bg-[#2C2C2E] rounded-full flex items-center justify-center hover:bg-[#1C1C1E] transition-colors">
                 <ChevronLeft className="w-6 h-6 text-white" strokeWidth={2.5} />
@@ -126,6 +173,8 @@ export default function BaseComponents() {
                 <ChevronLeft className="w-5 h-5 text-white" strokeWidth={2.5} />
               </button>
             </div>
+          </Link>
+            
           </div>
 
           {/* Toggle Switches */}

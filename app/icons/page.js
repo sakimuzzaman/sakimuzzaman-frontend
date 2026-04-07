@@ -23,7 +23,10 @@ const IconPage = () => {
          </span>
             </Seperator>
 
-            <IconsSection />
+            <div id="icons-section">
+                <IconsSection />
+            </div>
+            
 
         </>
     );
