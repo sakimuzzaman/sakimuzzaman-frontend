@@ -11,7 +11,7 @@ const BodySection = ({ item }) => {
       </div>
 
       {/* Properties Grid */}
-      <div className="grid grid-cols-4 gap-x-32">
+      <div className="grid grid-cols-4 gap-x-34">
         {/* Font Family Column */}
         <div className="flex flex-col">
           <span className="text-[11px] text-gray-400 uppercase tracking-wider">
