@@ -1,4 +1,5 @@
 
+import Link from "next/link";
 import BodySection from "../components/BodySection";
 import Herosection from "../components/Herosection";
 import Seperator from "../components/Seperator";
@@ -25,15 +26,21 @@ const TypePage = () => {
          </span>
             </Seperator>
 
+            <Link
+                href="https://font.download/font/sf-pro-display"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+          <div className="bg-[#FFFFFF] shadow-sm">
 
-            <div className="bg-[#FFFFFF] shadow-sm">
+                  {typographyData.map((item) => (
+                    <TypographySection
+                        key={item.level} item={item} />
+                  ))}
 
-            {typographyData.map((item) => (
-              <TypographySection
-                  key={item.level} item={item} />
-            ))}
-
-              </div>
+          </div>
+        </Link>
+            
 
             <Seperator>
                <span className="

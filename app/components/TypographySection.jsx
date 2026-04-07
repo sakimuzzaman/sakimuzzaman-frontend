@@ -8,7 +8,7 @@ const TypographySection = ({ item }) => {
     return (
         <>
         <div 
-      className="grid grid-cols-4 items-center px-14 py-8 border-b border-gray-200 gap-x-32"
+      className="grid grid-cols-4 items-center px-14 py-8 border-b border-gray-200 gap-x-34"
     >
       {/* Column 1: Title and Font Info (Left Aligned) */}
       <div className="text-left">
