@@ -11,6 +11,7 @@ const PrimaryColors = () => {
         px-4 sm:px-6 md:px-10 lg:px-[60px]
         py-6 sm:py-8 md:py-10 lg:py-[60px]
         gap-6 sm:gap-8 md:gap-10
+        animate-fadeIn
       "
     >
       {/* Title */}
@@ -36,18 +37,34 @@ const PrimaryColors = () => {
           gap-3 sm:gap-4 md:gap-5 lg:gap-[22px]
         "
       >
-        <ColorBox bgValue="hsla(221, 85%, 95%, 1)" title="Primary [50]" hsb="220 9 100" darkText={true} />
-        <ColorBox bgValue="hsla(213, 19%, 85%, 1)" title="Primary [100]" hsb="220 21 10" darkText={true} />
-        <ColorBox bgValue="hsla(214, 31%, 80%, 1)" title="Primary [200]" hsb="220 34 100" darkText={true} />
-        <ColorBox bgValue="hsla(216, 46%, 70%, 1)" title="Primary [300]" hsb="220 51 100" darkText={true} />
-        <ColorBox bgValue="hsla(218, 60%, 60%, 1)" title="Primary [400]" hsb="220 68 100" darkText={false} />
-        <ColorBox bgValue="hsla(221, 89%, 50%, 1)" title="Primary [500]" hsb="220 88 100" darkText={false} />
-
-        <ColorBox bgValue="hsla(221, 89%, 85%, 1)" title="Primary [600]" hsb="220 89 85" darkText={false} />
-        <ColorBox bgValue="hsla(221, 90%, 70%, 1)" title="Primary [700]" hsb="220 88 70" darkText={false} />
-        <ColorBox bgValue="hsla(221, 91%, 60%, 1)" title="Primary [800]" hsb="220 89 50" darkText={false} />
-        <ColorBox bgValue="hsla(221, 90%, 30%, 1)" title="Primary [900]" hsb="220 90 30" darkText={false} />
-        <ColorBox bgValue="hsla(221, 87%, 15%, 1)" title="Primary [950]" hsb="220 87 15" darkText={false} />
+        {[
+          { bg: "hsla(221, 85%, 95%, 1)", title: "Primary [50]", hsb: "220 9 100", dark: true },
+          { bg: "hsla(213, 19%, 85%, 1)", title: "Primary [100]", hsb: "220 21 10", dark: true },
+          { bg: "hsla(214, 31%, 80%, 1)", title: "Primary [200]", hsb: "220 34 100", dark: true },
+          { bg: "hsla(216, 46%, 70%, 1)", title: "Primary [300]", hsb: "220 51 100", dark: true },
+          { bg: "hsla(218, 60%, 60%, 1)", title: "Primary [400]", hsb: "220 68 100", dark: false },
+          { bg: "hsla(221, 89%, 50%, 1)", title: "Primary [500]", hsb: "220 88 100", dark: false },
+          { bg: "hsla(221, 89%, 85%, 1)", title: "Primary [600]", hsb: "220 89 85", dark: false },
+          { bg: "hsla(221, 90%, 70%, 1)", title: "Primary [700]", hsb: "220 88 70", dark: false },
+          { bg: "hsla(221, 91%, 60%, 1)", title: "Primary [800]", hsb: "220 89 50", dark: false },
+          { bg: "hsla(221, 90%, 30%, 1)", title: "Primary [900]", hsb: "220 90 30", dark: false },
+          { bg: "hsla(221, 87%, 15%, 1)", title: "Primary [950]", hsb: "220 87 15", dark: false },
+        ].map((color, index) => (
+          <div
+            key={index}
+            className="
+              transition-all duration-300 ease-in-out
+              hover:scale-105 hover:-translate-y-1
+            "
+          >
+            <ColorBox
+              bgValue={color.bg}
+              title={color.title}
+              hsb={color.hsb}
+              darkText={color.dark}
+            />
+          </div>
+        ))}
       </div>
     </section>
   );
