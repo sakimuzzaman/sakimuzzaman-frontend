@@ -6,7 +6,7 @@ const TestimonialCard = () => {
         <div className="border border-dashed border-purple-500/60 rounded-xl p-6 w-full max-w-[650px] grid grid-cols-2 gap-4">
           
           {/* Testimonial Text */}
-          <div className="bg-[#12141a] rounded-2xl p-6 flex flex-col justify-between h-[250px] border border-gray-800">
+          <div className="bg-[#12141a] rounded-2xl p-6 flex flex-col justify-between min-h-[250px] sm:h-auto border border-gray-800">
             <div>
               <div className="w-8 h-8 rounded-full bg-gray-500 overflow-hidden mb-4">
                 <img src="https://i.pravatar.cc/150?img=11" alt="avatar" className="w-full h-full object-cover" />

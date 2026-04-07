@@ -3,6 +3,8 @@ import { lessonsData, moduleLessonsData } from "@/app/utils/data";
 import LessonItem from "./LesssionItem";
 import ModuleAccordion from "./ModuleAccordion";
 import TestimonialCard from "./TestimonialCard";
+import MiddleNavbar from "./MiddleNavbar";
+import InnerFooter from "./InnerFooter";
 
 const BasicTemplates = () => {
   return (
@@ -53,6 +55,11 @@ const BasicTemplates = () => {
         </div>
 
         <TestimonialCard />
+
+         <MiddleNavbar />
+
+         <InnerFooter />
+
       </div>
     </div>
   );
