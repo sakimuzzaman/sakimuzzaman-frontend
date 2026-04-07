@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { Moon, Sun, Menu, X } from 'lucide-react';
+import Image from 'next/image';
 
 const MiddleNavbar = () => {
   // Only keep mobile menu state - NO theme toggle logic
@@ -29,6 +30,7 @@ const MiddleNavbar = () => {
               {/* Logo */}
               <div className="flex items-center gap-2 flex-shrink-0">
                 <span className="text-[20px] font-semibold text-white tracking-wide">PPA</span>
+                <Image src="/InnerNavImg.png" width={30} height={30} alt='innerNavbarImg' />
               </div>
 
               {/* Navigation Links (Center - Desktop) */}
@@ -98,6 +100,7 @@ const MiddleNavbar = () => {
               {/* Logo */}
               <div className="flex items-center gap-2 flex-shrink-0">
                 <span className="text-[20px] font-semibold text-white tracking-wide">PPA</span>
+                <Image src="/InnerNavImg.png" width={30} height={30} alt='innerNavbarImg' />
               </div>
 
               {/* Right Actions */}
